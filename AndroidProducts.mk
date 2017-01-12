@@ -1,5 +1,6 @@
 #
 # Copyright 2015 The Android Open Source Project
+# Copyright 2016 The Maru OS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,3 +17,6 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_bullhead.mk
+
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/maru_bullhead.mk
