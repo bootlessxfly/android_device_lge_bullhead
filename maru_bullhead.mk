@@ -29,3 +29,10 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     device/lge/bullhead/overlay_maru/apps \
     device/lge/bullhead/overlay_maru/daydream
+
+# -----------------------------------------------------------------------------
+# kernel config
+
+KERNEL_DEFCONFIG := maru-bullhead_defconfig
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_APPEND_DTB := true
